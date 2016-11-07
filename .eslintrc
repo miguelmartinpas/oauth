@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb/base",
+  "globals": {
+    "angular": true,
+    "inject": true
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jasmine": true
+  },
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "max-len": [1, 150],
+    "no-confusing-arrow": 0,
+    "no-param-reassign": ["error", { "props": false }]
+  }
+}

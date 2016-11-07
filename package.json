@@ -1,0 +1,28 @@
+{
+  "name": "oauth-with-hapi-js",
+  "version": "1.0.0",
+  "description": "Getting oauth with Hapi.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -V -L bootstrap.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelmartinpas/oauth"
+  },
+  "author": "Miguel Martín",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-preset-es2015": "^6.18.0",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-import": "^2.2.0",
+    "hapi": "^15.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
